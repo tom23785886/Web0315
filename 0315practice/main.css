@@ -1,0 +1,67 @@
+h1{
+    color:blue;
+    font-size:28px;
+    text-align:center;
+    background-color:none;
+    height:100px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+img{
+    border:4px solid blue;
+    display：block;
+    visibility:hidden;
+}
+html,body{
+    height:100%;
+    font-size:16px;
+    font-family:/*-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",*/"Roboto","Helvetica Neue",Arial, sans-serif;
+}
+body{
+    background:#000000 url("greece.jpg") fixed;
+    background-size:cover;
+}
+li{
+    font-weight:bold;
+
+}
+#todo-list{
+    background-color:none;
+}
+li.done{
+    text-decoration:line-through;
+}
+a:hover{
+    color:pink;
+}
+li p::first-letter{
+    font-size:200%;
+}
+li.be::before{
+    content:url("tt.jpg");
+}
+ul{
+    width:80%;
+    color:rgb(135, 173, 222);
+    border:6px solid yellow;
+    padding:24px 12px 8px 4px;
+    margin:20px;
+    width:1000px;
+    height:2000px;
+    font-size:2rem;
+}
+li.done{
+    color:red;
+}
+#todo-list{
+    color:green;
+    position:relative;
+    top:10rem;
+    left:10rem;
+
+}
+span{
+    font-size:2em;
+}
+.float{
+    float:right;
+}
